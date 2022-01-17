@@ -1,3 +1,33 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://letsask.app'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Lets Ask'
+theme = "hallo"
+
+[Author]
+    name = "."
+
+[params]
+
+    greeting = "Lets Ask..."
+
+    [[params.links]]
+        iconset = "fas"
+        icon = "envelope"
+        title = "E-mail"
+        url = "mailto:vygneshwaran@gmail.com"
+
+    [[params.links]]
+        icon = "github"
+        title = "Github"
+        url = "https://github.com/vickycj"
+
+    [[params.links]]
+        icon = "twitter"
+        title = "Twitter"
+        url = "https://twitter.com/vickycj93"
+      
+
+    [params.colors]
+        background = "#8e44ad"
+        foreground = "#edf7ff"
+        hover = "#ffba82"  
